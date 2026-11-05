@@ -28,9 +28,12 @@ cd looker-sheets-cpa-alert
 uv run --no-project --with openpyxl python scripts/build_sales_demo.py
 ```
 
-`demo/sales-demo-cpa-alert.xlsx` ができます。Googleスプレッドシートにアップロードして共有してください。
+`demo/sales-demo-cpa-alert.xlsx` ができます。作成済みのGoogle表は次です。
 
-**数値はすべて架空です。本番のクライアント名・実数値ではありません。**
+https://docs.google.com/spreadsheets/d/1VJRdjbd1YbFu1qWLaxgrETyVtn-ccgEyvGMb6dcO7cg/edit
+
+**数値はすべて架空です。本番のクライアント名・実数値ではありません。**  
+リンク共有はオーナーが「リンクを知っている全員」に一度切り替えてください。
 
 ## Cursor Skill
 
