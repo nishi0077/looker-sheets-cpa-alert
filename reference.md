@@ -68,4 +68,4 @@ Z: =IF(Y{i}="緑",1,IF(Y{i}="黄",2,IF(Y{i}="赤",3,"")))
 ## 公開リポジトリ・営業デモ
 
 - GitHub: https://github.com/nishi0077/looker-sheets-cpa-alert
-- ダミーGoogle表: https://docs.google.com/spreadsheets/d/1VJRdjbd1YbFu1qWLaxgrETyVtn-ccgEyvGMb6dcO7cg/edit
+- ダミーGoogle表（定例型・25タブ）: https://docs.google.com/spreadsheets/d/1UXHK4jtI7GvKmCf2G2CKZaWf85P8-OR9qGnECQDcJsk/edit

@@ -64,10 +64,10 @@ uv run --no-project --with google-auth --with google-auth-httplib2 --with google
 ```bash
 cd "/Users/nishi/Cursol/looker-sheets-cpa-alert"
 uv run --no-project --with openpyxl python scripts/build_sales_demo.py
-# できた xlsx を Googleスプレッドシートに上げてURLを返す
+# 全体サマリ＋Google（成果・入札・クエリ・KW・広告文）＋Meta（成果・CR）＋認知＋Next Action のxlsx
 ```
 
-共有文の型は「ダミー数値です。本番のクライアント名や実数値ではありません。」を必ず付ける。
+共有文の型は「ダミー数値です。本番のクライアント名や実数値ではありません。」を必ず付ける。定例本番シートと同じタブ型で見せる。
 
 ## 注意
 

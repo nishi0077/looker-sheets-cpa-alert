@@ -28,9 +28,9 @@ cd looker-sheets-cpa-alert
 uv run --no-project --with openpyxl python scripts/build_sales_demo.py
 ```
 
-`demo/sales-demo-cpa-alert.xlsx` ができます。作成済みのGoogle表は次です。
+`demo/sales-demo-cpa-alert.xlsx` ができます。定例報告と同じ型（全体サマリ・入札・クエリ・KW・広告文・Meta CR など25タブ）のGoogle表は次です。
 
-https://docs.google.com/spreadsheets/d/1VJRdjbd1YbFu1qWLaxgrETyVtn-ccgEyvGMb6dcO7cg/edit
+https://docs.google.com/spreadsheets/d/1UXHK4jtI7GvKmCf2G2CKZaWf85P8-OR9qGnECQDcJsk/edit
 
 **数値はすべて架空です。本番のクライアント名・実数値ではありません。**  
 リンク共有はオーナーが「リンクを知っている全員」に一度切り替えてください。

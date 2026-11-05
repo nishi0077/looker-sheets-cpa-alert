@@ -1,22 +1,27 @@
 # 営業用デモ（ダミー数値）
 
-`sales-demo-cpa-alert.xlsx` は、CPAアラートの見え方を説明するだけの架空データです。
-
-- ブランドA〜D は架空名
-- 費用・CV・CPA はデモ用に作った数字
-- 緑／黄／赤／色なしが1枚で揃うように配置
+本番の定例報告（全体サマリ＋キャンペーン別の成果・入札・クエリ・KW・広告文／Meta成果・CR）と同じ型のダミーです。
 
 ## Googleスプレッドシート（作成済み）
 
-https://docs.google.com/spreadsheets/d/1VJRdjbd1YbFu1qWLaxgrETyVtn-ccgEyvGMb6dcO7cg/edit
+https://docs.google.com/spreadsheets/d/1UXHK4jtI7GvKmCf2G2CKZaWf85P8-OR9qGnECQDcJsk/edit
 
-共有設定（「リンクを知っている全員」）はオーナー側で一度付けてください。Drive APIスコープがないため、スクリプトからは公開にできません。
+共有設定（「リンクを知っている全員」）はオーナー側で一度付けてください。
 
-## シート
+## タブ構成（25）
 
-1. **月次サマリ** … 当月CPAに色。`CPA帯` / `CPAスコア` 列あり（Looker接続の見本）
-2. **目標** … 目標CPA・許容CPA
-3. **凡例** … 色の意味
+| 区分 | タブ |
+|---|---|
+| 全体 | `全体サマリ` |
+| Google×3ブランド | `G_ブランド*＿成果` / `＿入札` / `＿クエリ` / `＿KW` / `＿広告文` |
+| Meta×3ブランド | `M_ブランド*リード＿成果` / `＿CR` |
+| その他 | `認知＿表示` / `Next Action` / `凡例` |
+
+- **ブランドA** … 目標内（緑）
+- **ブランドB** … 目標超〜許容内（黄）
+- **ブランドC** … 許容超（赤）
+
+ブランド名・費用・CVはすべて架空です。本番のクライアント名・実数値ではありません。
 
 ## 再生成
 
@@ -24,4 +29,4 @@ https://docs.google.com/spreadsheets/d/1VJRdjbd1YbFu1qWLaxgrETyVtn-ccgEyvGMb6dcO
 python scripts/build_sales_demo.py
 ```
 
-共有時は必ず「ダミー数値です」と添える。
+xlsx は `demo/sales-demo-cpa-alert.xlsx` に出力されます。
