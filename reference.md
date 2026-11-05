@@ -64,3 +64,8 @@ Z: =IF(Y{i}="緑",1,IF(Y{i}="黄",2,IF(Y{i}="赤",3,"")))
 - 目標／許容を変えたあと → `apply_cpa_alert_colors.py`
 - 朝の日次更新後にGoogle CVが0のまま → `patch_looker_google_cv.sh`
 - 定例シートの色が古い → `apply_cpa_alert_colors.py` または月曜レポート実行
+
+## 公開リポジトリ・営業デモ
+
+- GitHub: https://github.com/nishi0077/looker-sheets-cpa-alert
+- ダミーGoogle表: https://docs.google.com/spreadsheets/d/1VJRdjbd1YbFu1qWLaxgrETyVtn-ccgEyvGMb6dcO7cg/edit
